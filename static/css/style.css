@@ -1,0 +1,50 @@
+:root {
+    --violet-clair: #d887fb;  
+    --violet-fonce: #391647; 
+  }
+  body {
+    margin: 0;
+    /* font-family: Arial, sans-serif; */
+    background: linear-gradient(var(--violet-clair), var(--violet-fonce));
+    color: #5a1660; 
+    }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--violet-clair);
+    text-shadow: 2px 2px 5px var(--violet-fonce);
+  }
+  button{
+    background-color: var(--violet-fonce);
+    color: #c6a0cf;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(87, 23, 114, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: var(--violet-clair);
+    transform: scale(1.05);
+  }
+  
+  .table {
+    background-color: black;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  form{
+    background: linear-gradient(var(--violet-clair), var(--violet-fonce));
+  
+  }
